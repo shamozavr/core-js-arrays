@@ -430,7 +430,7 @@ function getIdentityMatrix(/* n */) {
  *    getIndicesOfOddNumbers([11, 22, 33, 44, 55]) => [0, 2, 4]
  */
 function getIndicesOfOddNumbers(numbers) {
-  return Array.from(numbers, (_, i) => numbers[i%2!==2]);
+  return Array.from(numbers, (_, i) => numbers[i % 2 !== 2]);
 }
 
 /**
